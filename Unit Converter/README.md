@@ -33,13 +33,13 @@ This project is a basic unit converter built using HTML, CSS, and JavaScript. It
 
 ## 📥 Installation
 
-# Clone the repository
+#### Clone the repository
 - git clone https://github.com/tasnim-ferdous/Websites.git
 
-# Navigate to the project directory
+#### Navigate to the project directory
 - cd Websites/Unit Converter
 
-# Open the unit converter page in your browser
+#### Open the unit converter page in your browser
 - Open uc.html in any web browser
 
 ---
