@@ -6,7 +6,7 @@
 
 ## 📁 Live Preview
 
-🚀 [Click here to explore Celestia](https://tasnim-ferdous.github.io/Celestia/index.html)
+🚀 [Click here to explore Celestia](https://tasnim-ferdous.github.io/Websites/Celestia/index.html)
 
 ---
 
