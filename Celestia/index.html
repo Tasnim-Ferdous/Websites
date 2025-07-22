@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Md. Tasnim Ferdous" />
+  <title>Celestia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Favicon/tf.jpg" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div id="instructions">
+      <span id="closeBtn1">✖</span>
+      <div class="title">
+        <h2>Celestia: The Solar Symphony</h2>
+      </div>
+      <ul>
+        <li>Click on the 3D Object to view details!</li>
+        <li>Click on the play/pause button (on the top-right) to play/pause the animation!</li>
+        <li>Move your pointer to move through the space!</li>
+        <li>Scroll up/down to zoom in/out!</li>
+        <li>Use desktop mode for better visual experience!</li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div id="infoPanel">
+    <span id="closeBtn">✖</span>
+    <div id="objName"></div>
+    <ul id="objDetails"></ul>
+  </div>
+
+  <div id="controls">
+    <button id="toggleAnimation">Pause</button>
+    <audio id="bgAudio" src="Music/sci-fi-music.mp3" autoplay loop></audio>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/examples/js/controls/FlyControls.js"></script>
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const audio = document.getElementById("bgAudio");
+        audio.volume = 0.2;
+        
+        const tryPlay = () => {
+        audio.play().catch(() => {
+            document.body.addEventListener("click", () => { audio.play(); }, { once: true });
+        });
+        };
+
+        tryPlay();
+    });
+   </script>
+
+</body>
+</html>
