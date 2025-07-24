@@ -1,9 +1,15 @@
-# 🧠🎨 Mind Canvas
+# 🎨 Mind Canvas
 
 Mind Canvas is an advanced multi-layer digital drawing web app, designed for artists, thinkers, and creators. It offers intuitive drawing tools, layer-based editing, symmetry in an elegant interface.
 
 ## 🌐 Live Preview
 🔗 [Click to Visit the Site](https://tasnim-ferdous.github.io/Websites/Mind%20Canvas/index.html)
+
+---
+
+## 📸 Screenshots
+
+![Mind Canvas](Favicon/Mind%20Canvas.jpeg)
 
 ---
 
@@ -39,12 +45,6 @@ Mind Canvas is an advanced multi-layer digital drawing web app, designed for art
 - **JavaScript (Vanilla)**  – Interactivity and logic
 - **FileSaver.js** - Downloading canvas
 - **Font Awesome** – Icons
-
----
-
-## 📸 Screenshots
-
-![Mind Canvas](Favicon/Mind%20Canvas.jpeg)
 
 ---
 
