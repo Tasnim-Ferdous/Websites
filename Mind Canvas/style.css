@@ -1,0 +1,16 @@
+body {
+    font-family:'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+select {
+    color: black !important;
+    background-color: white !important;
+    text-align: center;
+    outline: none;
+}
